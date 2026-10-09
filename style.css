@@ -52,6 +52,7 @@ main{max-width:calc(var(--col) + var(--gut)*2);margin:0 auto;padding:0 var(--gut
 .clip header{display:flex;align-items:baseline;gap:clamp(14px,2.4vw,28px);margin-bottom:18px}
 .num{font:400 clamp(28px,4vw,44px)/1 Unbounded,sans-serif;color:var(--flash);letter-spacing:-.02em;font-variant-numeric:tabular-nums;min-width:1.6em}
 .num sup{font-size:.5em;vertical-align:top;margin-left:.05em}
+.toc sup{font-size:.8em;line-height:0;vertical-align:.35em}
 .clip h3{margin:0;font:500 clamp(19px,2.4vw,26px)/1.2 Unbounded,sans-serif;letter-spacing:-.01em}
 .clip h3 em{font-style:normal;color:var(--desc);font-weight:400}
 
