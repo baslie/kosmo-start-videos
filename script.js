@@ -52,7 +52,7 @@
     for (const e of entries) {
       if (!e.isIntersecting) continue;
       links.forEach(a => a.classList.remove('on'));
-      links.get(e.target.id)?.classList.add('on');
+      links.get(e.target.dataset.toc || e.target.id)?.classList.add('on');
     }
   }, { rootMargin: '-45% 0px -50% 0px' });
   clips.forEach(el => spy.observe(el));
