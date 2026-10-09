@@ -90,6 +90,13 @@ main{max-width:calc(var(--col) + var(--gut)*2);margin:0 auto;padding:0 var(--gut
   .disk .long{display:none}
   .lead{font-size:16px}
 }
+/* узкие телефоны (320–370): логотип и кнопка остаются в одной строке */
+@media (max-width:374px){
+  .top{column-gap:10px}
+  .mark{width:44px;height:44px}
+  .wordmark{font-size:13px}
+  .disk{padding:9px 11px}
+}
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   .js .clip{opacity:1;transform:none;transition:none}
